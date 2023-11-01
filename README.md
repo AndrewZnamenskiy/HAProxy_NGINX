@@ -12,7 +12,7 @@
 
 ### Решение 1
 
-# Команды запуска  Python Web серверов
+#### Команды запуска  Python Web серверов
 
 
 	'python3 -m http.server 8888 --bind 0.0.0.0'
@@ -42,7 +42,7 @@
 
 ### Решение 2
 
-# Команды запуска  Python Web серверов
+#### Команды запуска  Python Web серверов
 
 	
 	'python3 -m http.server 8888 --bind 0.0.0.0'
@@ -50,7 +50,7 @@
         'python3 -m http.server 9999 --bind 0.0.0.0'
 
 
-# Команда имитации запросов на 7-м уровне:
+#### Команда имитации запросов на 7-м уровне:
 
 	'curl -H 'Host:example.local' http://127.0.0.1:8080'
 
@@ -74,7 +74,7 @@
 
 ### Решение 3
 
-# Команды запуска  Python Web сервера
+#### Команды запуска  Python Web сервера
 
 
         'python3 -m http.server 8800 --bind 0.0.0.0'
@@ -85,6 +85,7 @@
   *Запрос картинок по заданному имени ресурса*
 
 ![Commit Task3](https://github.com/AndrewZnamenskiy/HAProxy_NGINX/blob/main/img/task3p1.png)
+
 
 ![Commit Task3](https://github.com/AndrewZnamenskiy/HAProxy_NGINX/blob/main/img/task3p2.png)
 
@@ -119,15 +120,15 @@
 
 ### Решение 4
 
-# Команды запуска  Python Web серверов первой и второй
+#### Команды запуска  Python Web серверов первой и второй
 
-	<первая группа - домен example1.local>
+	**Первая группа - домен example1.local**
 	
         'python3 -m http.server 8800 --bind 0.0.0.0'
 
 	'python3 -m http.server 8801 --bind 0.0.0.0'
 
-	<вторая группа - домен example2.local>
+	**Вторая группа - домен example2.local**
 
         'python3 -m http.server 9900 --bind 0.0.0.0'
 
@@ -150,6 +151,7 @@
 
 
 *Файл конфигурации Task4: [HAProxy_Task4](task4-cfg/haproxy.cfg.bak4)*
+
 *Файл конфигурации Task4: [NGINX_Task4](task4-cfg/new-server)*
 
 
