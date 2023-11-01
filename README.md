@@ -122,17 +122,17 @@
 
 #### Команды запуска  Python Web серверов первой и второй
 
-	**Первая группа - домен example1.local**
+	** Первая группа - домен example1.local **
 	
-        'python3 -m http.server 8800 --bind 0.0.0.0'
+	'python3 -m http.server 8800 --bind 0.0.0.0'
 
 	'python3 -m http.server 8801 --bind 0.0.0.0'
 
-	**Вторая группа - домен example2.local**
+	** Вторая группа - домен example2.local **
 
-        'python3 -m http.server 9900 --bind 0.0.0.0'
+	'python3 -m http.server 9900 --bind 0.0.0.0'
 
-        'python3 -m http.server 9901 --bind 0.0.0.0'
+	'python3 -m http.server 9901 --bind 0.0.0.0'
 
 
 
