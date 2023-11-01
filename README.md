@@ -47,7 +47,7 @@
 	
 	'python3 -m http.server 8888 --bind 0.0.0.0'
 
-        'python3 -m http.server 9999 --bind 0.0.0.0'
+	'python3 -m http.server 9999 --bind 0.0.0.0'
 
 
 #### Команда имитации запросов на 7-м уровне:
